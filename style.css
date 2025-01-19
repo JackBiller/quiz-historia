@@ -1,0 +1,144 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	height: 30vh;
+}
+
+main {
+	overflow-y: scroll;
+	height: 65vh;
+	background-color: white !important;
+}
+
+nav {
+	/*background: #333;*/
+	color: black !important;
+	/*padding: 15px;*/
+	border-right: solid 1px #333;
+	overflow-y: scroll;
+	height: 65vh;
+	background-color: white !important;
+}
+
+#menu {
+	background-color: white !important;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+nav ul li ul {
+	margin-left: 20px;
+	display: none;
+}
+
+main {
+	flex: 1;
+	padding: 20px;
+}
+
+.question {
+	margin-bottom: 20px;
+}
+
+.options label {
+	display: block;
+	margin: 5px 0;
+}
+
+.menu-toggle {
+	background-color: lightgrey;
+	margin: 5px;
+}
+
+.menu-toggle:hover {
+	background-color: lightgrey;
+	margin: 5px;
+}
+
+.menu-toggle:focus {
+	background-color: lightgrey !important;
+	margin: 5px !important;
+}
+
+#menu-toggle {
+	background-color: white;
+}
+
+.sub-menu {
+	background-color: #fefefe;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
+}
+
+.sub-menu hr {
+	border-top: 1px solid grey;
+	color: black;
+	padding: 2px;
+	margin: 2px;
+}
+
+@font-face {
+	font-family: 'cabbagetown';
+	src: url('./assets/font/cabbagetown/Cabbagetown.ttf');
+}
+
+header {
+	padding-top: 30px;
+	background-image: url('assets/img/capa.png');
+	background-size: cover;
+	background-position: center;
+
+	color: black;
+	background-color: white;
+	text-shadow: 2px 2px lightgrey;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'cabbagetown', sans-serif;
+	font-size: 12px;
+}
+
+header h1 {
+	font-size: 25px;
+	text-align: center !important;
+	padding: 20px;
+}
+
+.btnNavQuiz {
+	color: gray;
+}
+
+#idProgress {
+	width: 70%;
+	display: inline-block;
+	margin-bottom: 0 !important;
+	height: 5px !important;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: lightgrey !important;
+}
+
+#idProgressBar {
+	background-color: grey !important;
+	width: 0%;
+}

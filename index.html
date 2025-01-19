@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Quiz História</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container" style="padding: 0; ">
+		<div class="row">
+			<div class="col-md-12" style="padding: 0;">
+				<header>
+					<h1>Quiz<br><br><br>Historia</h1>
+				</header>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-5" id="menu">
+				<nav>
+					<ul id="menu-toggle" class="nav nav-pills nav-stacked"></ul>
+				</nav>
+			</div>
+			<div class="col-md-8 col-sm-6 col-xs-7">
+				<main>
+					<div id="quiz">
+						<h2>
+							Selecione uma categoria para começar o quiz
+						</h2>
+					</div>
+					<div id="quizSend" style="display: none;">
+						<button class="btn btn-default" onclick="montaResultado()">Finalizar Quiz</button>
+					</div>
+				</main>
+			</div>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>

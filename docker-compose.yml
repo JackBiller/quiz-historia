@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  quiz:
+    image: altinfo/webserver
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - dev
+    container_name: quiz
+
+networks:
+  dev:
+    external:
+      name: dev

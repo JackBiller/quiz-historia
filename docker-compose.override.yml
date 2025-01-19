@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+   quiz:
+      privileged: true
+      environment: 
+         - AMBIENTE=DESENVOLVIMENTO
+      ports:
+         - "80:80"
